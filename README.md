@@ -1,73 +1,75 @@
 # Patient Admission Management System
 
-A web-based application to manage hospital patient admission records.
+A web application to manage hospital patient admissions and records.
 
-## Technologies Used
+## Technology Stack
 
-- Frontend: React.js
-- Backend: Java Spring Boot
-- Database: MySQL
-- Build Tool: Maven
+**Frontend**
+- React.js
+- HTML
+- CSS
+- JavaScript
+
+**Backend**
+- Java
+- Spring Boot
+- REST API
+
+**Database**
+- MySQL
 
 ## Features
-
 - Add new patients
-- View all patient records
+- View all patients
 - Search patients by name
-- Filter patients by ward, department and doctor
+- Filter by ward, department and doctor
 - Edit patient details
-- Delete patient records with confirmation
-- Mark patients as discharged
-- Dashboard with patient statistics
-- Responsive design for desktop, tablet and mobile
+- Delete patients
+- Discharge patients
 - Frontend and backend validation
+- Persistent MySQL storage
 
-## Project Structure
+## Live Application
 
-- `frontend/` – React application
-- `src/` – Spring Boot backend
-- `pom.xml` – Maven dependencies and configuration
+Frontend: https://patient-admission-management-five.vercel.app/
 
-## How to Run the Project
+**Note:** The online backend connection is still pending.
+
+## Run Locally
 
 ### Backend
-
-1. Configure your MySQL database.
-2. Add your local database credentials to `application.properties`.
-3. Open a terminal in the project root folder.
-4. Run:
+1. Install Java 21, Maven and MySQL.
+2. Create a MySQL database named `patient_management`.
+3. Configure database credentials in `application.properties`.
+4. Open the backend project folder.
+5. Run:
 
 ```bash
-.\mvnw.cmd spring-boot:run
+mvn spring-boot:run
 ```
 
 Backend URL: `http://localhost:8080`
 
 ### Frontend
-
-1. Open a terminal inside the `frontend` folder.
-2. Install dependencies:
+1. Install Node.js.
+2. Open the frontend folder.
+3. Run:
 
 ```bash
 npm install
-```
-
-3. Start the React application:
-
-```bash
 npm run dev
 ```
 
 Frontend URL: `http://localhost:5173`
 
-## Live Application
-
-To be added after deployment.
-
 ## Screenshots
 
-To be added.
+Add screenshots of:
+- Dashboard
+- Add Patient form
+- Patient list
+- Search and filters
 
-## GitHub Repository
+## Developer
 
-https://github.com/karthik843/patient-admission-management
+Karthik A S
