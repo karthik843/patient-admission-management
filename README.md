@@ -64,6 +64,7 @@ Frontend URL: `http://localhost:5173`
 
 ## Screenshots
 
+![Patient Admission Dashboard](dashboard.png)
 Add screenshots of:
 - Dashboard
 - Add Patient form
